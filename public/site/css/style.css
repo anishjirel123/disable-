@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Slab', serif;   
+}
+
+
+:root{
+	--skin-color:#6609ff;
+	--p-color:#007bff;
+    --a-color:paleturquoise;
+}
+
+body{
+	background-color: #f5f8fd;
+}
+
+.btn{
+  background-color: #3d3d3d;
+  padding:10px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size:13px;
+  letter-spacing: 1.5px;
+
+}
+
+.btn:hover{
+  border-radius: 30px;
+  color:black;
+  background-color: white;
+}
+
+
+/* navbar section starts here */
+#navbar{
+  background-color:white;
+  height: 75px;
+  
+}
+
+
+
+#navbar .navbar{
+  line-height: 75px;
+  padding: 0;
+  height: 75px;
+}
+#navbar .navbar .collapse.show{
+  z-index: 100;
+  background-color:white;
+}
+
+#navbar .navbar .navbar-toggler{
+  background-color: var(--skin-color);
+  color:black;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+#navbar .navbar .navbar-brand{
+  color:black;
+  font-weight: bold;
+  letter-spacing:3px;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+#navbar .img-fluid {
+    max-width: 100%;
+    height: 100px;
+}
+
+#navbar .navbar .nav-item .nav-link{
+  color:black;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 0 14px;
+}
+#navbar .navbar .dropdown .dropdown-menu .dropdown-item{
+  height: 40px;
+  padding: 0;
+  line-height: 40px;
+  color: black;
+  font-weight: bold;
+  
+}
+#navbar .navbar .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color:lawngreen;
+  color:black;
+}
+#navbar .navbar .dropdown .dropdown-menu{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-width: 250px;
+  border: 2px solid var(--s-color);
+}
+#navbar .navbar .nav-item .nav-link:hover{
+  color:red;
+  /* background-color:white;
+  border-bottom: 3px solid #731d05;
+  border-radius: 50%; */
+}
+#navbar .navbar .nav-item.active .nav-link{
+  color:black;
+  /* background-color: var(--skin-color); */
+  border-bottom: 5px solid red;
+}
+
+
+/* navbar section ends here */
+
+
+
+
+/* slide us section starts here */
+#slide{
+    background-color:white;
+    min-height: 100vh;
+    padding: 60px;
+  }
+  
+  
+#slide .btn{
+  background-color:red;
+  padding:9px 30px;
+  text-decoration: none;
+  color:white;
+  margin-top:18px;
+  margin-right: 40px;
+  font-size:16px;
+  letter-spacing: 1.5px;
+  box-shadow: 0rem 0rem 1rem 0.1rem;
+
+}
+
+#slide .btn:hover{
+  border-radius: 30px;
+  color:black;
+  background-color: white;
+  box-shadow: 0rem 0rem 1rem 0.1rem;
+}
+
+
+  
+#slide .bt{
+  background-color:lawngreen;
+  padding:9px 20px;
+  text-decoration: none;
+  color:black;
+  margin-top:18px;
+  margin-right: 40px;
+  font-size:24px;
+  letter-spacing: 1px;
+  border-radius:10px;
+
+}
+
+#slide .bt:hover{
+  border-radius: 30px;
+  color:white;
+  background-color:black;
+  box-shadow: 0rem 0rem 1rem 0.1rem;
+}
+
+
+ #slide .slide-content h2{
+    font-size:35px;
+    font-weight: bolder;
+    text-align:center;
+    /* margin-top:2px; */
+  }
+
+#slide .slide-content h1{
+  font-size:35px;
+  font-weight: bolder;
+  text-align:center;
+  margin-top: 10px;
+}
+
+#slide .slide-content h3{
+   font-size:35px;
+   font-weight: bolder;
+   text-align:center;
+   margin-top: 10px;
+ }
+  #slide .slide-img img{
+    border-radius: 5px;
+    height: auto;
+  }
+  #slide .slide-content{
+    text-align: center;
+  }
+  #slide .slide-content p{
+    /* font-weight:bold; */
+    font-size: 18px;
+    margin-top: 25px;
+    text-align: justify;
+  }
+  
+  #slide .slide-content p:hover{
+    font-weight:bold;
+    font-size: 18px;
+    text-align: justify;
+  }
+  /* slide us section ends here */
+  
+
+  
+/*about section starts here*/
+#about{
+    min-height: 100vh;
+    padding: 10px;
+  }
+  
+  #about .about-tittle h6{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    
+  }
+  
+  #about .about-box{
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #about .about-box:hover{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    border-radius: 4px;
+  }
+  
+ 
+  #about .about-box p:hover{
+    /* box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important; */
+    border-radius:10px;
+    background-color: #ddd;
+    font-weight: bolder;
+    /* border: 1.5px solid var(--s-color); */
+  } 
+ 
+  /*about section ends here*/
+  
+
+
+  
+/*service section starts here*/
+#service{
+  min-height: 100vh;
+  padding: 60px;
+  
+}
+
+
+#service .section-title h6{
+  font-size:40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#service .service-box{
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color:#fff;
+  background-clip: border-box;
+  margin-bottom: 20px;
+}
+
+#service .service-box:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+  border-radius: 4px;
+  background-color:lightgreen;
+  border: 1.5px solid var(--s-color);
+}
+
+
+#service .service-happy{
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color:#fff;
+  background-clip: border-box;
+  margin-bottom: 20px;
+}
+
+#service .service-happy:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+  border-radius: 4px;
+  background-color:lightblue;
+  border: 1.5px solid var(--s-color);
+}
+
+
+#service .service-bus{
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color:#fff;
+  background-clip: border-box;
+  margin-bottom: 20px;
+}
+
+#service .service-bus:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+  border-radius: 4px;
+  background-color:lightgreen;
+  border: 1.5px solid var(--s-color);
+}
+
+
+#service .service-chair{
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color:#fff;
+  background-clip: border-box;
+  margin-bottom: 20px;
+}
+
+#service .service-chair:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+  border-radius: 4px;
+  background-color:lightcoral;
+  border: 1.5px solid var(--s-color);
+}
+
+
+#service .service-book{
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color:#fff;
+  background-clip: border-box;
+  margin-bottom: 20px;
+}
+
+#service .service-book:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+  border-radius: 4px;
+  background-color:lightseagreen;
+  border: 1.5px solid var(--s-color);
+}
+
+
+#service .service-help{
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color:#fff;
+  background-clip: border-box;
+  margin-bottom: 20px;
+}
+
+#service .service-help:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+  border-radius: 4px;
+  background-color:lime;
+  border: 1.5px solid var(--s-color);
+}
+
+#service .service-box .icon{
+  color: var(--s-color);
+  font-size: 25px;
+  border: 4.5px solid var(--s-color);
+  padding: 18px;
+  border-radius: 50%;
+  transition: 2s;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#service .service-box h1{
+  color: var(--skin-color);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize; 
+}
+
+#service .service-box p{
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+
+#service .service-box p:hover{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+#service .service-happy .icon{
+  color: var(--s-color);
+  font-size: 25px;
+  border: 4.5px solid var(--s-color);
+  padding: 18px;
+  border-radius: 50%;
+  transition: 2s;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#service .service-happy h1{
+  color: var(--skin-color);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize; 
+}
+
+#service .service-happy p{
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+
+#service .service-happy p:hover{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+#service .service-bus .icon{
+  color: var(--s-color);
+  font-size: 25px;
+  border: 4.5px solid var(--s-color);
+  padding: 18px;
+  border-radius: 50%;
+  transition: 2s;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#service .service-bus h1{
+  color: var(--skin-color);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize; 
+}
+
+#service .service-bus p{
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+
+#service .service-bus p:hover{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+#service .service-chair .icon{
+  color: var(--s-color);
+  font-size: 25px;
+  border: 4.5px solid var(--s-color);
+  padding: 18px;
+  border-radius: 50%;
+  transition: 2s;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#service .service-chair h1{
+  color: var(--skin-color);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize; 
+}
+
+#service .service-chair p{
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+
+#service .service-chair p:hover{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+#service .service-book .icon{
+  color: var(--s-color);
+  font-size: 25px;
+  border: 4.5px solid var(--s-color);
+  padding: 18px;
+  border-radius: 50%;
+  transition: 2s;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#service .service-book h1{
+  color: var(--skin-color);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize; 
+}
+
+#service .service-book p{
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+
+#service .service-book p:hover{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+#service .service-help .icon{
+  color: var(--s-color);
+  font-size: 25px;
+  border: 4.5px solid var(--s-color);
+  padding: 18px;
+  border-radius: 50%;
+  transition: 2s;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#service .service-help h1{
+  color: var(--skin-color);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize; 
+}
+
+#service .service-help p{
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+
+#service .service-box p:hover{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*service section ends here*/
+
+/* office */
+#office{
+  padding:60px;
+  /* background-color:#ddd ; */
+  min-height: 60vh;
+}
+
+#office .office-title h1{
+  text-align: center;
+
+}
+
+#office .card img{
+  border-radius: 5px;
+  
+}
+
+#office .card img:hover{
+  border-radius:50px;
+  border: 2px solid black;
+}
+
+/* office */
+
+
+ /* footer */
+
+ #footer{
+  min-width:20vh;
+  /* padding:60px; */
+  }  
+  
+
+   #footer .text{
+    color: black;
+   }
+
+
+  #footer .footer-links ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  #footer .footer-links h4{
+  color:black;
+  /* border-bottom: 2px solid white; */
+  }
+
+  #footer .footer-contact h2{
+    color: black;
+    font-size:20px;
+    margin:0 80px;
+  }
+  #footer .footer-links ul li a{
+  color: #f5f8fd;
+  text-transform: capitalize;
+  font-size: 15px;
+  text-align: center;
+  
+  } 
+  
+  #footer .footer-links ul li a:hover{
+  color: black;
+  font-size: 24px;
+  }
+  
+ 
+  #footer .text p{
+  color: #f5f8fd;
+  font-size:20px;
+  /* border-radius: 40px; */
+  }
+  
+  #footer .text p:hover{
+    color:black; 
+    font-size:25px;
+  
+  }
+  
+  
+
+  #footer .footer-contact ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+  #footer .footer-contact ul li a{
+    color: #f5f8fd;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+    
+    } 
+  #footer .footer-contact ul li a:hover{
+    color: black;
+    font-size:17px;
+    }
+  
+  /*footer section end here*/
+
+  #last .text-center{
+    color: #fff;
+    font-size: 20px;
+    border-top:5px solid red;
+    margin: 3px;
+    
+    }
